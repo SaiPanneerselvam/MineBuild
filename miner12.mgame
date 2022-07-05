@@ -2,6 +2,28 @@
 <yconf()/>
 <zconf()/>
 <script>
-    
+
+</script>
+<design>
+  mg-border1-text (
+    block-texture: wood_trunk, 0type, aspen-tree;
+    basic-block-tint: Aqua_Blue{};
+    script-unit_function{grab, scripts, info, clicktype, referenceid, element, elementid, elementTexture, elementcanvas, elementdronetype, ttvs}: write();
+  )
+
+  def{all}(
+    def_basic{}
+  )
+  sign(
+    epac_val1: use(write.epac_val1)
+  )
+</design>
+
 <gamearea>
   <object place-x="248" place-y="32432321" place-z="100x(ceramics)" class="mg-border1-text def-11-tep"/>
+  <object place-x="0" place-y="0" place-z="0" dval1="Welcome to Miner." class="sign"/>
+  <game mine-s1()/>
+  <game mine-s2()/>
+  <-->
+  To run it online, use the script at minebuild.glitch.me/game/?01id=iv21010930498i719580129d9382030ei.uri()&gamebuild=too1,game.mine-s1(),game.mine-s2(),welcome+to+miner
+</gamearea>
