@@ -1,0 +1,15 @@
+uve()
+engine()
+scripts()
+data()
+var engine == engine()
+engine.tip(unity.download(/bin/installunityforminebuild0.3.cpp?web))
+(Unity Installing...)
+engine.tip.begin()
+on engine.tip.finish()
+{
+    Website.Start()
+    (Unity Installation for MineBuild on the Web complete. UVE is now starting...)
+    (unvent UI says hi  .console())
+    (DateTime.Now()  .console())
+}

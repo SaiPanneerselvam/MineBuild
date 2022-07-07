@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MineBuild Game Engine</title>
+    <script src="js.js"></script>
     <style>
         @font-face {
             font-family: Ax-UI-Data;
@@ -14,9 +15,38 @@
             font-family: Ax-UI-Data;
             text-align: center;
         }
+        .alert {
+  padding: 20px;
+  background-color: #00ff6a;
+  color: white;
+  margin-bottom: 15px;
+  font-family: Ax-UI-Data;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
     </style>
 </head>
 <body>
+    <div class="alert">
+        <span class="closebtn">&times;</span>
+        <img src="https://www.freeiconspng.com/uploads/cookie-png-transparent-images-background-23.png" height="30px" width="30px"/>
+        <h3>This Website uses lots of cookies to store data.</h3>
+      </div>
     <h1 id="minebuildtitleheader">MineBuild</h1>
 </body>
 </html>
